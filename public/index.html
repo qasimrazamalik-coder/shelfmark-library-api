@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shelfmark</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600&family=Public+Sans:wght@400;500;600&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231F4E4A'/><rect x='9' y='6' width='5' height='20' fill='%23F6F7F4'/><rect x='16' y='9' width='7' height='17' fill='%23B9A7D9'/></svg>">
+</head>
+<body>
+  <div class="app">
+    <aside class="rail">
+      <a class="brand" href="#/catalogue">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="4" width="6" height="24"/><rect x="13" y="8" width="8" height="20"/><rect x="23" y="2" width="4" height="26" transform="rotate(8 25 15)"/></svg>
+        Shelfmark
+      </a>
+      <nav id="nav" aria-label="Main"></nav>
+      <div class="who" id="who"></div>
+    </aside>
+    <main id="view" tabindex="-1"></main>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
